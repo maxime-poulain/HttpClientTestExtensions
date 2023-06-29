@@ -86,7 +86,7 @@ public async Task ReturnsNotFoundGivenInvalidAuthorId()
 
 All of these methods are extensions on `HttpClient`; the following samples assume `client` is an `HttpClient`. All methods take an optional `ITestOutputHelper`, which is an xUnit type.
 
-#### [GET](src\Ardalis.HttpClientTestExtensions\HttpClientGetExtensionMethods.cs)
+#### [GET](src/Ardalis.HttpClientTestExtensions/HttpClientGetExtensionMethods.cs)
 
 ```csharp
 // GET and return an object T
